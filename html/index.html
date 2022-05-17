@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prueba</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <h1>Tets </h1>
+    <h2>Tets uno</h2>
+    <h3>subtitulo uno </h3>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Tempore repellat voluptates et dolores quo eveniet
+        commodi magnam ea, itaque hic nihil eos provident consequuntur 
+        impedit consectetur nostrum sed qui ab!
+        <a href="index_dos.html" target="_blank">mas info</a>
+    </p>
+
+    <br>
+    <h2>tets dos</h2>
+    <h3>subtitulo uno</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Dolorem, ipsum eligendi? Libero, nobis! Consequuntur a
+        et voluptates quis ducimus, nam nobis dicta quo? Ad quia veniam, 
+        a accusamus sequi minima?</p>
+    <br>
+    <a href="img/yop.jpg" target="_blank">ver imagen</a>
+    <br>
+    <time>2:16</time>
+    <br>
+    <img src="img/descarga.jpg" alt="" width="200" height="200">
+   <section>
+       <h2>Deporte</h2>
+       <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Odio neque voluptatem qui, non, fuga esse optio quisquam deleniti,
+        iste a quod nihil ullam vitae adipisci sint officiis nostrum nemo voluptates.
+       </p>
+   </section>
+    <article>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Culpa omnis quas quo alias, explicabo esse error?
+        Ducimus maiores, veniam porro ab laudantium ipsum, earum, dicta iste quidem nam harum qui?
+        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque neque quis quisquam debitis, saepe pariatur dolorum fugiat iure ratione! Minus deleniti dignissimos beatae! Cupiditate, 
+        ducimus quisquam. 
+        Consequuntur laboriosam numquam impedit!</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Voluptatibus deleniti laudantium quas, sapiente,
+        voluptates eum odit suscipit omnis <cite>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque voluptatibus dolor officiis est. Ducimus ex voluptates quisquam quibusdam numquam eius excepturi soluta, aperiam obcaecati incidunt 
+        corporis modi inventore dolor similique.</cite> magnam nihil iste alias sequi iusto, vero ipsa eveniet recusandae? Ad,
+        officiis?
+    </article>
+    <br>
+   <img src="img/descarga2.jpg" alt="">
+
+    <!--Listas-->
+
+    <ul>
+        <li> dato uno</li>
+        <li> dato dos</li>
+        <li>dato tres</li>
+    </ul>
+    <ol>
+        <li>dato uno</li>
+        <li>dato dos</li>
+        <li>dato tres</li>
+    </ol>
+
+    <!--TABLAS-->
+    <table>
+        <thead>
+            <tr>
+               <th>NOMBRE</th>
+               <th>CIUDAD</th>
+               <th>EDAD</th>
+            </tr>
+        </thead>
+    <tbody>
+        <tr>
+            <td>carolina</td>
+            <td>sahagun</td>
+            <td>28 años</td>
+        </tr>
+
+        <tr>
+            <td>valery</td>
+            <td>planeta rica</td>
+            <td>8 años</td>
+        </tr>
+
+        <tr>
+            <td>andres</td>
+            <td>monteria</td>
+            <td>29 años</td>
+        </tr>
+
+        <tr>
+            <td>juan</td>
+            <td>medellin</td>
+            <td>30 años</td>
+        </tr>
+
+        <tr>
+            <td>daniel</td>
+            <td>sincelejo</td>
+            <td>35 años</td>
+        </tr>
+     </tbody>
+    </table>
+          <br>
+
+    <!--FORMULARIOS-->
+    <form action="archivo.php">
+        <div>
+            <label for="nombre">NOMBRE</label>
+            <input type="text" name="nombre">
+        </div>
+        <br>
+        <div>
+            <label for="apellido">APELLIDO</label>
+            <input type="text" name="apellido" placeholder="primer apellido" id="apellido">
+       
+        </div>
+        <br>
+        <div>
+            <label for="telefono">TELEFONO</label>
+            <input type="number" name="telefono" maxlength="10" id="telefono">
+        </div>
+        <br>
+        <div>
+            <label for="contraseña">CONTRASEÑA</label>
+            <input type="password" name="contraseña" id="contraseña">
+        </div>
+        <br>
+        <div>
+            <label for="genero">GENERO</label>
+            <input type="radio">HOMBRE
+            <input type="radio">MUJER
+        </div>
+        <br>
+        <div>
+            <label for="mensaje">MENSAJE</label>
+            <br>
+            <textarea name="mensaje" id="mensaje" cols="40" rows="4"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="edad">EDAD</label>
+            <input type="number" name="edad" maxlength="2" id="edad" value="25">
+        </div>
+        <br>
+        <div>
+            <label for="fecha">FECHA DE NACIMIENTO</label>
+            <input type="date" name="" id="">
+        </div>
+        <br>
+        <div>
+            <label for="">seleccionar una materia</label>
+            <select name="selecmul">
+                <option value="CALCULO I">CALCULO I</option>
+                <option value="FISICA">FISICA</option>
+                <option value="PROGRAMACION">PROGRAMACION</option>
+                <option value="QUIMICA">QUIMICA</option>
+                <option value="REDES">REDES</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="button" value="ENVIAR">
+            <input type="submit" value="ENVIAR">
+            <input type="color">
+        </div>
+    </form>
+        <br>
+
+    <footer>autora: carolina vega</footer>
+
+</body>
+
+</html>
